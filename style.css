@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&subset=latin-ext');
-@import url("./common.css");
-@import url("./header.css");
-@import url("./hero.css");
-@import url("./info.css");
-@import url("./footer.css");
+@import url("./css/common.css");
+@import url("./css/header.css");
+@import url("./css/hero.css");
+@import url("./css/info.css");
+@import url("./css/footer.css");
 
 
 
