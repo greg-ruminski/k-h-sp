@@ -19,7 +19,6 @@ header>div {
 
 .banner>img {
     width: 100%;
-    /* margin: 0 auto; */
     max-width: 600px;
 }
 
@@ -27,10 +26,6 @@ header>div {
     grid-column: 8/12;
 }
 
-/* .fb>a::content::before {
-    content: url("./img/icon-fb.png");
-    max-height: 1rem;
-} */
 
 @media (max-width: 420px) {
     header {
