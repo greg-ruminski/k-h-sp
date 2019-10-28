@@ -1,0 +1,48 @@
+header {
+    display: grid;
+    grid: repeat(12, 1fr);
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+header>div {
+    display: grid;
+    padding: 0.5rem 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner {
+    grid-column: 1/7;
+}
+
+.banner>img {
+    width: 100%;
+    /* margin: 0 auto; */
+    max-width: 600px;
+}
+
+.fb {
+    grid-column: 8/12;
+}
+
+/* .fb>a::content::before {
+    content: url("./img/icon-fb.png");
+    max-height: 1rem;
+} */
+
+@media (max-width: 420px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header>div {
+        padding: 0.5rem;
+    }
+    
+    .fb {
+        padding-bottom: 1rem;
+    }
+}
