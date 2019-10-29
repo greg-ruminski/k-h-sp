@@ -22,7 +22,7 @@
     line-height: 1.7;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 740px) {
     .mission, .contact {
         grid-column: 1/12;
     }
